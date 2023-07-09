@@ -213,3 +213,56 @@ nav li a{
     margin-top: 70px;
     margin-bottom: 20px;
 }
+/* service area style ends here */
+
+/* appointment area style starts here */
+
+#appointment{
+    width: 80%;
+    background-color: red;
+    margin: 0 auto;
+    border-radius: 20px;
+    color: #fff;
+    margin-top: -70px;
+}
+
+.appointment-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.appointment-phone-number{
+    width: 330px;
+    display: flex;
+    align-items: center;
+    padding-right: 20px;
+    border-right: 2px solid rgb(109, 61, 61);
+}
+
+.appointment-phone-number img{
+    width: 120px;
+    margin-right: 20px;
+}
+
+.appointment-phone-number h4{
+    font-size: 35px;
+
+}
+
+.appointment-phone-number small{
+    font-size: 12px;
+
+}
+
+.appointment-description{
+    width: 470px;
+    padding: 10px; 
+
+}
+
+.appo-btn{
+    border-radius: 25px;
+}
+/* appointment area style ends here */
