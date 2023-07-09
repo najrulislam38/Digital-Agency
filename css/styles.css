@@ -97,3 +97,119 @@ nav li a{
     color: #fff;
     margin-right: 10px;
 }
+/* banner area style ends here */
+
+
+/* service area style starts here */
+#service{
+    width: 100vw;
+    background-image: url('../asset/image/footer-bg.png'), linear-gradient( rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.9));
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: color;
+    color: #fff;
+}
+
+.service-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 30px;
+}
+
+.service-content{
+    color: #BECFD0;
+}
+
+.round-btn{
+    padding: 12px 30px;
+    border-radius: 38px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+.service-top-btn{
+    color: gray;
+    margin-bottom: 20px;
+}
+.title{
+    font-size: 35px; 
+}
+
+.service-title{
+    margin-bottom: 20px;
+}
+
+.service-description{
+    font-size: 20px;
+    width: 500px;
+    margin-bottom: 30px;
+}
+
+.service-content ol{
+    margin: 20px 0 30px 10px;
+    font-size: 18px;
+}
+
+.author-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.author-area{
+    display: flex;
+    align-items: center;
+    border-right: 2px solid red;
+    width: 320px;
+    color: #fff;
+}
+
+
+.author-image img{
+    border-radius: 50%;
+    width: 100px;
+    margin-right: 10px;
+}
+
+.author-more-btn{
+    color: red;
+    font-weight: 300;
+}
+
+.service-items-wrapper{
+    margin-right: 20px;
+}
+
+.service-item-one-grp{
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.service-item-two-grp{
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 120px;
+}
+
+.service-items{
+    background-color: #fff;
+    color: #000000;
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.service-items img{
+    width: 100px;
+    background-color: #fff;
+    margin-top: 70px;
+    margin-bottom: 20px;
+}
